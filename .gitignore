@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+app/__pycache__/
+app/*.py[cod]
+app/*$py.class
+
+# C extensions
+app/*.so
+
+# Distribution / packaging
+app/.Python
+app/build/
+app/develop-eggs/
+app/dist/
+app/downloads/
+app/eggs/
+app/.eggs/
+app/lib/
+app/lib64/
+app/parts/
+app/sdist/
+app/var/
+app/wheels/
+app/share/python-wheels/
+app/*.egg-info/
+app/.installed.cfg
+app/*.egg
+app/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+app/*.manifest
+app/*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+app/htmlcov/
+app/.tox/
+app/.nox/
+app/.coverage
+app/.coverage.*
+app/.cache
+app/nosetests.xml
+app/coverage.xml
+app/*.cover
+app/*.py,cover
+app/.hypothesis/
+app/.pytest_cache/
+app/cover/
+
+
+# Django stuff:
+app/*.log
+app/local_settings.py
+app/db.sqlite3
+app/db.sqlite3-journal
+
+# Flask stuff:
+app/instance/
+app/.webassets-cache
+
+# Scrapy stuff:
+app/.scrapy
+
+# Sphinx documentation
+app/docs/_build/
+
+# PyBuilder
+app/.pybuilder/
+app/target/
+
+# Jupyter Notebook
+app/.ipynb_checkpoints
+
+# IPython
+app/profile_default/
+app/ipython_config.py
+app/__pypackages__/
+
+# Environments
+app/variables/*.env
+app/variables/*.venv
+.DS_Store
